@@ -47,9 +47,6 @@
     "complaintTypeLabel": "{{type}} complaint",
     "phoneNumber": "Phone number",
     "emailAddress": "Email address",
-    "notifyByText": "Updates and notifications will be texted to you.",
-    "notifyByEmail": "Updates and notifications will be emailed to you.",
-    "notifyByTextAndEmail": "Updates and notifications will be texted and emailed to you.",
     "back": "Back",
     "schedule": "Schedule",
     "scheduling": "Scheduling…",
@@ -63,9 +60,6 @@
     "makeChanges": "Make changes to this inspection",
     "reschedule": "Reschedule",
     "cancel": "Cancel",
-    "cancelConfirmQuestion": "Are you sure you want to cancel this inspection?",
-    "keepInspection": "Keep inspection",
-    "confirmCancel": "Yes, cancel",
     "canceling": "Canceling…",
     "changesLocked": "Changes can't be made online within 24 hours of your inspection. To make changes, call the NYC Department of Housing Preservation & Development at {{phone}}.",
     "inspectionCanceledTitle": "Your inspection was canceled",
@@ -74,5 +68,10 @@
     "pageTitleMockOutbox": "Demo outbox",
     "currentAppointment": "Your current inspection",
     "noOtherAvailabilityOnDay": "There are no other appointment windows available on this day.",
-    "currentInspectionLabel": "Your current inspection:"
+    "currentInspectionLabel": "Your current inspection:",
+    "cancelInspectionTitle": "Do you want to cancel this inspection?",
+    "confirmCancellation": "Confirm cancellation",
+    "smsOptIn": "By checking, you agree to receive SMS updates and reminders. Data rates may apply. See",
+    "privacyPolicy": "Privacy Policy",
+    "emailOptIn": "By checking, you agree to receive email updates and reminders."
 }
