@@ -24,7 +24,7 @@
     "tryAnotherComplaintNumber": "Try another complaint number",
     "scheduleAnInspectionTitle": "Schedule an inspection",
     "inspectorVisited": "A Housing inspector visited your apartment on {{date}} in response to your complaint.",
-    "noAvailabilityTitle": "We're sorry, there's no availability to schedule online for the next 2 weeks.",
+    "noAvailabilityTitle": "We're sorry, there are no appointments available online for the next 2 weeks.",
     "noAvailabilityCall": "To schedule an inspection call the Department of Housing Preservation & Development at {{phone}}.",
     "noAvailabilityFollowUp": "If we do not hear from you within 10 days we will assume the issue is resolved.",
     "loading": "Loading…",
@@ -61,7 +61,6 @@
     "reschedule": "Reschedule",
     "cancel": "Cancel",
     "canceling": "Canceling…",
-    "changesLocked": "Changes can't be made online within 24 hours of your inspection. To make changes, call the NYC Department of Housing Preservation & Development at {{phone}}.",
     "inspectionCanceledTitle": "Your inspection was canceled",
     "inspectionCanceledBody": "If you do not have an inspection within 10 days of filing your complaint, the NYC Department of Housing Preservation & Development will automatically close your complaint.",
     "scheduleNewInspection": "Reschedule inspection",
@@ -73,5 +72,6 @@
     "confirmCancellation": "Confirm cancellation",
     "smsOptIn": "By checking, you agree to receive SMS updates and reminders. Data rates may apply. See",
     "privacyPolicy": "Privacy Policy",
-    "emailOptIn": "By checking, you agree to receive email updates and reminders."
+    "emailOptIn": "By checking, you agree to receive email updates and reminders.",
+    "resetDemoData": "Reset Demo Data"
 }

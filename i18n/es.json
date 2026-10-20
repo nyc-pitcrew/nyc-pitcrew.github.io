@@ -24,7 +24,7 @@
     "tryAnotherComplaintNumber": "Pruebe otro número de queja",
     "scheduleAnInspectionTitle": "Programe una inspección",
     "inspectorVisited": "Un inspector de vivienda visitó su apartamento el {{date}} en respuesta a su queja.",
-    "noAvailabilityTitle": "Lo sentimos, no hay disponibilidad para programar en línea durante las próximas 2 semanas.",
+    "noAvailabilityTitle": "Lo sentimos, no hay citas disponibles en línea durante las próximas 2 semanas.",
     "noAvailabilityCall": "Para programar una inspección, llame al Departamento de Preservación y Desarrollo de la Vivienda al {{phone}}.",
     "noAvailabilityFollowUp": "Si no sabemos de usted en un plazo de 10 días, asumiremos que el problema se ha resuelto.",
     "loading": "Cargando…",
@@ -61,7 +61,6 @@
     "reschedule": "Reprogramar",
     "cancel": "Cancelar",
     "canceling": "Cancelando…",
-    "changesLocked": "No se pueden hacer cambios en línea dentro de las 24 horas previas a su inspección. Para hacer cambios, llame al Departamento de Preservación y Desarrollo de la Vivienda de NYC al {{phone}}.",
     "inspectionCanceledTitle": "Su inspección fue cancelada",
     "inspectionCanceledBody": "Si no tiene una inspección dentro de los 10 días posteriores a la presentación de su queja, el Departamento de Preservación y Desarrollo de la Vivienda de NYC cerrará su queja automáticamente.",
     "scheduleNewInspection": "Reprogramar inspección",
@@ -73,5 +72,6 @@
     "confirmCancellation": "Confirmar cancelación",
     "smsOptIn": "Al marcar esta casilla, acepta recibir actualizaciones y recordatorios por mensaje de texto. Pueden aplicarse tarifas de datos. Consulte la",
     "privacyPolicy": "Política de privacidad",
-    "emailOptIn": "Al marcar esta casilla, acepta recibir actualizaciones y recordatorios por correo electrónico."
+    "emailOptIn": "Al marcar esta casilla, acepta recibir actualizaciones y recordatorios por correo electrónico.",
+    "resetDemoData": "Restablecer datos de demostración"
 }
