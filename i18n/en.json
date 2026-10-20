@@ -68,10 +68,11 @@
     "confirmCancel": "Yes, cancel",
     "canceling": "Canceling…",
     "changesLocked": "Changes can't be made online within 24 hours of your inspection. To make changes, call the NYC Department of Housing Preservation & Development at {{phone}}.",
-    "inspectionCanceledTitle": "Your inspection has been canceled",
-    "inspectionCanceledBody": "We sent a confirmation to the contact information on file. If the issue hasn't been fixed, you can schedule a new inspection.",
-    "scheduleNewInspection": "Schedule a new inspection",
+    "inspectionCanceledTitle": "Your inspection was canceled",
+    "inspectionCanceledBody": "If you do not have an inspection within 10 days of filing your complaint, the NYC Department of Housing Preservation & Development will automatically close your complaint.",
+    "scheduleNewInspection": "Reschedule inspection",
     "pageTitleMockOutbox": "Demo outbox",
-    "currentAppointment": "Your current appointment",
-    "noOtherAvailabilityOnDay": "There are no other appointment windows available on this day."
+    "currentAppointment": "Your current inspection",
+    "noOtherAvailabilityOnDay": "There are no other appointment windows available on this day.",
+    "currentInspectionLabel": "Your current inspection:"
 }

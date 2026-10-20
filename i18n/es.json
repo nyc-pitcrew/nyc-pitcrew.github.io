@@ -72,6 +72,7 @@
     "inspectionCanceledBody": "Enviamos una confirmación a la información de contacto registrada. Si el problema no se ha resuelto, puede programar una nueva inspección.",
     "scheduleNewInspection": "Programar una nueva inspección",
     "pageTitleMockOutbox": "Bandeja de salida de demostración",
-    "currentAppointment": "Su cita actual",
-    "noOtherAvailabilityOnDay": "No hay otros horarios disponibles este día."
+    "currentAppointment": "Su inspección actual",
+    "noOtherAvailabilityOnDay": "No hay otros horarios disponibles este día.",
+    "currentInspectionLabel": "Su inspección actual:"
 }
