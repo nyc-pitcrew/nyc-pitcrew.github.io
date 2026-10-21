@@ -73,5 +73,6 @@
     "smsOptIn": "By checking, you agree to receive SMS updates and reminders. Data rates may apply. See",
     "privacyPolicy": "Privacy Policy",
     "emailOptIn": "By checking, you agree to receive email updates and reminders.",
-    "resetDemoData": "Reset Demo Data"
+    "resetDemoData": "Reset Demo Data",
+    "changesLocked": "Changes can no longer be made online for this inspection. To make changes, call the NYC Department of Housing Preservation & Development at {{phone}}."
 }

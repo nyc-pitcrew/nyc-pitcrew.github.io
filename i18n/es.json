@@ -73,5 +73,6 @@
     "smsOptIn": "Al marcar esta casilla, acepta recibir actualizaciones y recordatorios por mensaje de texto. Pueden aplicarse tarifas de datos. Consulte la",
     "privacyPolicy": "Política de privacidad",
     "emailOptIn": "Al marcar esta casilla, acepta recibir actualizaciones y recordatorios por correo electrónico.",
-    "resetDemoData": "Restablecer datos de demostración"
+    "resetDemoData": "Restablecer datos de demostración",
+    "changesLocked": "Ya no se pueden hacer cambios en línea para esta inspección. Para hacer cambios, llame al Departamento de Preservación y Desarrollo de la Vivienda de NYC al {{phone}}."
 }
