@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/error-summary/error-summary.scss"],
+  "sourcesContent": [":host {\n    display: block;\n}\n\n// .banner-error (NYCDS) draws the border, top bar, background and vertical padding; this lays\n// out the icon beside the message\n.error-summary {\n    display: flex;\n    align-items: center;\n    gap: var(--nyc-sys-space-sm, .75rem);\n    padding-inline: var(--nyc-sys-space-base, 1rem);\n    margin-bottom: 0 !important;\n}\n\n.error-summary__icon {\n    width: var(--nyc-sys-size-text-xl);\n    height: var(--nyc-sys-size-text-xl);\n    flex-shrink: 0;\n    color: var(--nyc-sys-color-auxiliary-error, #ec131e);\n}\n\n.error-summary__message {\n    margin: 0;\n}\n\n"],
+  "mappings": ";AAAA;AACI,WAAA;;AAKJ,CAAA;AACI,WAAA;AACA,eAAA;AACA,OAAA,IAAA,kBAAA,EAAA;AACA,kBAAA,IAAA,oBAAA,EAAA;AACA,iBAAA;;AAGJ,CAAA;AACI,SAAA,IAAA;AACA,UAAA,IAAA;AACA,eAAA;AACA,SAAA,IAAA,+BAAA,EAAA;;AAGJ,CAAA;AACI,UAAA;;",
+  "names": []
+}

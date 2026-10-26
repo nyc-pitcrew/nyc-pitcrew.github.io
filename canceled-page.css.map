@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/canceled/canceled-page.scss"],
+  "sourcesContent": ["p,\n.cta {\n    max-inline-size: 32rem;\n}\n\n.cta {\n    max-inline-size: 32rem;\n    justify-content: center;\n    width: 100%;\n    margin: var(--nyc-sys-space-base) 0;\n}\n"],
+  "mappings": ";AAAA;AAAA,CAAA;AAEI,mBAAA;;AAGJ,CALA;AAMI,mBAAA;AACA,mBAAA;AACA,SAAA;AACA,UAAA,IAAA,sBAAA;;",
+  "names": []
+}
