@@ -15429,6 +15429,7 @@ main > :not(router-outlet) > section {
   gap: var(--nyc-sys-space-lg, 24px);
   flex: 1 0 auto;
   width: calc(100% - 2 * var(--_gutter, 1rem));
+  margin-bottom: var(--nyc-sys-space-base);
 }
 .page > * {
   margin-block: 0;
@@ -15459,7 +15460,6 @@ p {
 .button-row {
   display: flex;
   gap: var(--nyc-sys-space-sm, 0.75rem);
-  margin-bottom: var(--nyc-sys-space-base);
 }
 .button-row > * {
   flex: 1 1 0;

@@ -49016,7 +49016,7 @@ var StatusMessage = class _StatusMessage {
       \u0275\u0275advance(3);
       \u0275\u0275conditional((tmp_0_0 = ctx.icon()) === "house-alert" ? 3 : tmp_0_0 === "house-error" ? 4 : tmp_0_0 === "broken-link" ? 5 : -1);
     }
-  }, styles: ["/* src/app/components/status-message/status-message.scss */\napp-status-message {\n  flex: 1 0 auto;\n  display: flex;\n  flex-direction: column;\n}\n.status-message {\n  flex: 1 0 auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n.status-message .page {\n  justify-content: center;\n}\n.status-message .status-message__icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  align-self: center;\n  flex-shrink: 0;\n  inline-size: 42px;\n  block-size: 42px;\n}\n.status-message .status-message__text {\n  display: flex;\n  flex-direction: column;\n  gap: var(--nyc-sys-space-base, 1rem);\n  max-inline-size: 36rem;\n  margin-inline: auto;\n}\n.status-message .status-message__text h1 {\n  max-inline-size: 22ch;\n  margin: 0 auto;\n  white-space: pre-line;\n}\n.status-message .status-message__text p {\n  margin: 0;\n}\n.status-message .status-message__text a {\n  display: inline;\n  color: var(--nyc-sys-color-link, #051adb);\n  text-decoration: underline;\n}\n.status-message .actions-container {\n  margin-bottom: var(--nyc-sys-space-base);\n}\n.status-message .nyc-button {\n  justify-content: center;\n  inline-size: 100%;\n  max-inline-size: 36rem;\n  margin-inline: auto;\n}\n/*# sourceMappingURL=status-message.css.map */\n"], encapsulation: 2 });
+  }, styles: ["/* src/app/components/status-message/status-message.scss */\napp-status-message {\n  flex: 1 0 auto;\n  display: flex;\n  flex-direction: column;\n}\n.status-message {\n  flex: 1 0 auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n.status-message .page {\n  justify-content: center;\n}\n.status-message .status-message__icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  align-self: center;\n  flex-shrink: 0;\n  inline-size: 42px;\n  block-size: 42px;\n}\n.status-message .status-message__text {\n  display: flex;\n  flex-direction: column;\n  gap: var(--nyc-sys-space-base, 1rem);\n  max-inline-size: 36rem;\n  margin-inline: auto;\n}\n.status-message .status-message__text h1 {\n  max-inline-size: 22ch;\n  margin: 0 auto;\n  white-space: pre-line;\n}\n.status-message .status-message__text p {\n  margin: 0;\n}\n.status-message .status-message__text a {\n  display: inline;\n  color: var(--nyc-sys-color-link, #051adb);\n  text-decoration: underline;\n}\n.status-message .nyc-button {\n  justify-content: center;\n  inline-size: 100%;\n  max-inline-size: 36rem;\n  margin-inline: auto;\n}\n/*# sourceMappingURL=status-message.css.map */\n"], encapsulation: 2 });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(StatusMessage, [{
@@ -49058,7 +49058,7 @@ var StatusMessage = class _StatusMessage {
     <ng-content />
   </div>
 </section>
-`, styles: ["/* src/app/components/status-message/status-message.scss */\napp-status-message {\n  flex: 1 0 auto;\n  display: flex;\n  flex-direction: column;\n}\n.status-message {\n  flex: 1 0 auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n.status-message .page {\n  justify-content: center;\n}\n.status-message .status-message__icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  align-self: center;\n  flex-shrink: 0;\n  inline-size: 42px;\n  block-size: 42px;\n}\n.status-message .status-message__text {\n  display: flex;\n  flex-direction: column;\n  gap: var(--nyc-sys-space-base, 1rem);\n  max-inline-size: 36rem;\n  margin-inline: auto;\n}\n.status-message .status-message__text h1 {\n  max-inline-size: 22ch;\n  margin: 0 auto;\n  white-space: pre-line;\n}\n.status-message .status-message__text p {\n  margin: 0;\n}\n.status-message .status-message__text a {\n  display: inline;\n  color: var(--nyc-sys-color-link, #051adb);\n  text-decoration: underline;\n}\n.status-message .actions-container {\n  margin-bottom: var(--nyc-sys-space-base);\n}\n.status-message .nyc-button {\n  justify-content: center;\n  inline-size: 100%;\n  max-inline-size: 36rem;\n  margin-inline: auto;\n}\n/*# sourceMappingURL=status-message.css.map */\n"] }]
+`, styles: ["/* src/app/components/status-message/status-message.scss */\napp-status-message {\n  flex: 1 0 auto;\n  display: flex;\n  flex-direction: column;\n}\n.status-message {\n  flex: 1 0 auto;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n}\n.status-message .page {\n  justify-content: center;\n}\n.status-message .status-message__icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  align-self: center;\n  flex-shrink: 0;\n  inline-size: 42px;\n  block-size: 42px;\n}\n.status-message .status-message__text {\n  display: flex;\n  flex-direction: column;\n  gap: var(--nyc-sys-space-base, 1rem);\n  max-inline-size: 36rem;\n  margin-inline: auto;\n}\n.status-message .status-message__text h1 {\n  max-inline-size: 22ch;\n  margin: 0 auto;\n  white-space: pre-line;\n}\n.status-message .status-message__text p {\n  margin: 0;\n}\n.status-message .status-message__text a {\n  display: inline;\n  color: var(--nyc-sys-color-link, #051adb);\n  text-decoration: underline;\n}\n.status-message .nyc-button {\n  justify-content: center;\n  inline-size: 100%;\n  max-inline-size: 36rem;\n  margin-inline: auto;\n}\n/*# sourceMappingURL=status-message.css.map */\n"] }]
   }], null, { icon: [{ type: Input, args: [{ isSignal: true, alias: "icon", required: true }] }] });
 })();
 (() => {
@@ -49273,7 +49273,7 @@ var CanceledPage = class _CanceledPage {
       \u0275\u0275advance();
       \u0275\u0275textInterpolate1(" ", \u0275\u0275pipeBind1(10, 8, "scheduleNewInspection"), " ");
     }
-  }, dependencies: [RouterLink, TranslatePipe], styles: ["\n\np[_ngcontent-%COMP%], \n.cta[_ngcontent-%COMP%] {\n  max-inline-size: 32rem;\n}\n.cta[_ngcontent-%COMP%] {\n  max-inline-size: 32rem;\n  justify-content: center;\n  width: 100%;\n  margin: var(--nyc-sys-space-base) 0;\n}\n/*# sourceMappingURL=canceled-page.css.map */"] });
+  }, dependencies: [RouterLink, TranslatePipe], styles: ["\n\np[_ngcontent-%COMP%] {\n  font-size: var(--nyc-sys-size-text-base);\n}\n/*# sourceMappingURL=canceled-page.css.map */"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(CanceledPage, [{
@@ -49287,7 +49287,7 @@ var CanceledPage = class _CanceledPage {
     </a>
   </div>
 </section>
-`, styles: ["/* src/app/pages/canceled/canceled-page.scss */\np,\n.cta {\n  max-inline-size: 32rem;\n}\n.cta {\n  max-inline-size: 32rem;\n  justify-content: center;\n  width: 100%;\n  margin: var(--nyc-sys-space-base) 0;\n}\n/*# sourceMappingURL=canceled-page.css.map */\n"] }]
+`, styles: ["/* src/app/pages/canceled/canceled-page.scss */\np {\n  font-size: var(--nyc-sys-size-text-base);\n}\n/*# sourceMappingURL=canceled-page.css.map */\n"] }]
   }], null, { complaintId: [{ type: Input, args: [{ isSignal: true, alias: "complaintId", required: true }] }] });
 })();
 (() => {
@@ -49716,7 +49716,7 @@ var CancelPage = class _CancelPage {
       \u0275\u0275advance(2);
       \u0275\u0275conditional((tmp_0_0 = ctx.complaint()) ? 2 : 3, tmp_0_0);
     }
-  }, dependencies: [AppointmentSummaryCard, LoadingSpinner, TranslatePipe], styles: ["\n\n.cta[_ngcontent-%COMP%] {\n  max-inline-size: 32rem;\n  justify-content: center;\n  width: 100%;\n  margin: var(--nyc-sys-space-base) 0;\n}\n.error[_ngcontent-%COMP%] {\n  color: var(--nyc-sys-color-auxiliary-error, #d8000c);\n}\n/*# sourceMappingURL=cancel-page.css.map */"] });
+  }, dependencies: [AppointmentSummaryCard, LoadingSpinner, TranslatePipe], styles: ["\n\n.error[_ngcontent-%COMP%] {\n  color: var(--nyc-sys-color-auxiliary-error, #d8000c);\n}\n/*# sourceMappingURL=cancel-page.css.map */"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(CancelPage, [{
@@ -49740,7 +49740,7 @@ var CancelPage = class _CancelPage {
     }
   </div>
 </section>
-`, styles: ["/* src/app/pages/cancel/cancel-page.scss */\n.cta {\n  max-inline-size: 32rem;\n  justify-content: center;\n  width: 100%;\n  margin: var(--nyc-sys-space-base) 0;\n}\n.error {\n  color: var(--nyc-sys-color-auxiliary-error, #d8000c);\n}\n/*# sourceMappingURL=cancel-page.css.map */\n"] }]
+`, styles: ["/* src/app/pages/cancel/cancel-page.scss */\n.error {\n  color: var(--nyc-sys-color-auxiliary-error, #d8000c);\n}\n/*# sourceMappingURL=cancel-page.css.map */\n"] }]
   }], () => [], { complaintId: [{ type: Input, args: [{ isSignal: true, alias: "complaintId", required: true }] }] });
 })();
 (() => {
@@ -51659,6 +51659,7 @@ var mock_complaints_default = [
 
 // src/app/mocks/mock-complaints.ts
 var SCHEDULING_WINDOW_DAYS = 10;
+var CHANGE_CUTOFF = { hours: 24 };
 var complaints = mock_complaints_default;
 var availability = mock_availability_default;
 var MOCK_WINDOWS = availability.windows;
@@ -51700,6 +51701,20 @@ function ineligibleReason(complaint) {
   }
   return todayNy() > until ? "EXPIRED" : null;
 }
+function changeCutoff(serviceDate, windowStart) {
+  if ("hours" in CHANGE_CUTOFF) {
+    const start = nyLocalToUtc(serviceDate, windowStart);
+    return new Date(start.getTime() - CHANGE_CUTOFF.hours * 3600 * 1e3);
+  }
+  const starts = [...new Set(MOCK_WINDOWS.map((window2) => window2.start))].sort();
+  let index = starts.filter((start) => start < windowStart).length - CHANGE_CUTOFF.windows;
+  let date = serviceDate;
+  while (index < 0) {
+    index += starts.length;
+    date = addDays(date, -1);
+  }
+  return nyLocalToUtc(date, starts[index]);
+}
 function mockAvailability(complaint) {
   const from2 = addDays(todayNy(), 1);
   const to = addDays(todayNy(), availability.releaseDays - 1);
@@ -51718,7 +51733,7 @@ function mockAvailability(complaint) {
         displayName: window2.displayName,
         start: window2.start,
         end: window2.end,
-        available: !isBooked(date, window2.key)
+        available: !isBooked(date, window2.key) && Date.now() < changeCutoff(date, window2.start).getTime()
       }))
     });
   }
@@ -51764,7 +51779,6 @@ function toPortalComplaint(complaint, activeAppointment2) {
 // src/app/mocks/mock-appointments.ts
 var STORE_KEY = "tenant-portal.mock.appointments";
 var OUTBOX_KEY = "tenant-portal.mock.outbox";
-var CHANGE_CUTOFF = { hours: 24 };
 var memoryStore = { created: [], overrides: {} };
 var memoryOutbox = [];
 function readJson(key, fallback) {
@@ -51847,20 +51861,6 @@ function appointmentsFor(complaint) {
     ...store2.created.filter((appointment) => appointment.complaintId === complaint.id)
   ];
 }
-function changeCutoff(appointment) {
-  if ("hours" in CHANGE_CUTOFF) {
-    const start = nyLocalToUtc(appointment.serviceDate, appointment.window.start);
-    return new Date(start.getTime() - CHANGE_CUTOFF.hours * 3600 * 1e3);
-  }
-  const starts = [...new Set(MOCK_WINDOWS.map((window2) => window2.start))].sort();
-  let index = starts.filter((start) => start < appointment.window.start).length - CHANGE_CUTOFF.windows;
-  let date = appointment.serviceDate;
-  while (index < 0) {
-    index += starts.length;
-    date = addDays(date, -1);
-  }
-  return nyLocalToUtc(date, starts[index]);
-}
 function toPortal(appointment) {
   return {
     id: appointment.id,
@@ -51869,7 +51869,7 @@ function toPortal(appointment) {
     status: appointment.status,
     serviceDate: appointment.serviceDate,
     window: appointment.window,
-    changeCutoffAt: changeCutoff(appointment).toISOString(),
+    changeCutoffAt: changeCutoff(appointment.serviceDate, appointment.window.start).toISOString(),
     canceledBy: appointment.canceledBy
   };
 }
@@ -51898,7 +51898,7 @@ function requireOpenWindow(complaint, appointmentWindowId) {
     const window2 = day.windows.find((w2) => w2.appointmentWindowId === appointmentWindowId);
     if (window2) {
       if (!window2.available) {
-        throw new MockApiError(409, "WINDOW_FULL", "That window just filled up. Please pick another.");
+        throw new MockApiError(409, "WINDOW_FULL", "That window is no longer available. Please pick another.");
       }
       return { serviceDate: day.date, window: { displayName: window2.displayName, start: window2.start, end: window2.end } };
     }
@@ -51910,7 +51910,7 @@ function requireChangeable(complaint, appointmentId) {
   if (!appointment || appointment.status !== "BOOKED") {
     throw new MockApiError(404, "APPOINTMENT_NOT_FOUND", `No active appointment ${appointmentId} for this complaint`);
   }
-  if (Date.now() >= changeCutoff(appointment).getTime()) {
+  if (Date.now() >= changeCutoff(appointment.serviceDate, appointment.window.start).getTime()) {
     throw new MockApiError(409, "CHANGE_CUTOFF_PASSED", "This appointment can no longer be changed online.");
   }
   return appointment;
