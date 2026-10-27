@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/confirmed/confirmed-page.scss"],
-  "sourcesContent": ["h1 {\n    font-size: var(--nyc-sys-size-text-4xl);\n}\n"],
-  "mappings": ";AAAA;AACI,aAAA,IAAA;;",
-  "names": []
-}

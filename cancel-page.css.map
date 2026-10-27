@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/cancel/cancel-page.scss"],
-  "sourcesContent": [".error {\n    color: var(--nyc-sys-color-auxiliary-error, #d8000c);\n}"],
-  "mappings": ";AAAA,CAAA;AACI,SAAA,IAAA,+BAAA,EAAA;;",
-  "names": []
-}

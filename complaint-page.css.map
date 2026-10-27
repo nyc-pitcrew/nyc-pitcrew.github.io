@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/complaint/complaint-page.scss"],
-  "sourcesContent": [".notice-card {\n    display: flex;\n    min-width: 280px;\n    max-width: 540px;\n    padding: var(--nyc-sys-space-base);\n    flex-direction: column;\n    align-items: flex-start;\n    gap: var(--nyc-sys-space-sm);\n    align-self: stretch;\n    \n    border-radius: var(--nyc-sys-radius-xs);\n    border: 2px solid var(--nyc-cmp-card-border-color);\n    background: var(--nyc-cmp-card-background);\n    /* shadow-blur-small */\n    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.15);\n    backdrop-filter: blur(12.5px);\n\n    h2 {\n        margin: 0;\n        /* Mobile/Component/Card title */\n        font-family: var(--nyc-sys-font-family-body);\n        font-size: 22px;\n        font-style: normal;\n        font-weight: 500;\n        line-height: 120%; /* 26.4px */\n    }\n\n    p {\n        margin-top: 0;\n        font-size: var(--nyc-sys-size-text-sm)\n    }\n}\n\n\n\n\n\nh1 {\n    font-size: var(--nyc-sys-size-text-4xl);\n}"],
-  "mappings": ";AAAA,CAAA;AACI,WAAA;AACA,aAAA;AACA,aAAA;AACA,WAAA,IAAA;AACA,kBAAA;AACA,eAAA;AACA,OAAA,IAAA;AACA,cAAA;AAEA,iBAAA,IAAA;AACA,UAAA,IAAA,MAAA,IAAA;AACA,cAAA,IAAA;AAEA,cAAA,EAAA,EAAA,IAAA,IAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA;AACA,2BAAA,KAAA;AAAA,mBAAA,KAAA;;AAEA,CAjBJ,YAiBI;AACI,UAAA;AAEA,eAAA,IAAA;AACA,aAAA;AACA,cAAA;AACA,eAAA;AACA,eAAA;;AAGJ,CA3BJ,YA2BI;AACI,cAAA;AACA,aAAA,IAAA;;AAQR;AACI,aAAA,IAAA;;",
-  "names": []
-}

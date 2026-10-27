@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/mock-webpage-footer/mock-webpage-footer.scss"],
-  "sourcesContent": ["// Layout comes from Bootstrap utility classes and the shared HPD classes in src/hpd.scss.\n.left-link {\n    color: inherit;\n}\n\n// Keep the footer links on one line once they sit beside the other footer columns\n@media (min-width: 576px) {\n    .left-links-parent {\n        white-space: nowrap;\n    }\n}\n\n// Looks like the other footer links\n.reset-demo {\n    display: inline;\n    padding: 0;\n    border: 0;\n    background: none;\n    font: inherit;\n    text-decoration: underline;\n    cursor: pointer;\n\n    &:hover {\n        color: inherit;\n    }\n}\n\n.hpd-logo-description {\n    font-size: .75rem;\n    line-height: 1.2;\n    white-space: nowrap;\n}\n"],
-  "mappings": ";AACA,CAAA;AACI,SAAA;;AAIJ,QAAA,WAAA;AACI,GAAA;AACI,iBAAA;;;AAKR,CAAA;AACI,WAAA;AACA,WAAA;AACA,UAAA;AACA,cAAA;AACA,QAAA;AACA,mBAAA;AACA,UAAA;;AAEA,CATJ,UASI;AACI,SAAA;;AAIR,CAAA;AACI,aAAA;AACA,eAAA;AACA,eAAA;;",
-  "names": []
-}

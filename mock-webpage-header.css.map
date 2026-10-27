@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/mock-webpage-header/mock-webpage-header.scss"],
-  "sourcesContent": ["// Layout comes from Bootstrap utility classes and the shared HPD classes in src/hpd.scss.\n.vl {\n    border-left: 1px solid grey;\n}\n\n.login-link {\n    border: 0;\n    padding: 0;\n}\n"],
-  "mappings": ";AACA,CAAA;AACI,eAAA,IAAA,MAAA;;AAGJ,CAAA;AACI,UAAA;AACA,WAAA;;",
-  "names": []
-}

@@ -1,49 +1,24 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>TenantPortal</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Same icon as HPD Online (hpdonline.nyc.gov/hpdonline/assets/favicon.png) -->
-  <link rel="icon" type="image/png" href="favicon.png">
-
-  <!-- NYC brand typefaces (designsystem.nyc.gov/brand/typography.html), used by NYCDS's
-       --nyc-sys-font-family-heading (Clash Grotesk) and --nyc-sys-font-family-body (Noto Sans) -->
-  <link rel="preconnect" href="https://api.fontshare.com" crossorigin="">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@500,600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&amp;display=swap">
-
-  <!-- Spinner shown until the app renders (it waits for translations and fonts).
-       Inline so it works before any stylesheet or script loads. -->
-  <style>
-    .boot-spinner {
-      display: flex;
-      justify-content: center;
-      padding-top: 30vh;
-      animation: boot-fade-in .2s ease-out .3s both;
-    }
-    .boot-spinner span {
-      width: 3rem;
-      height: 3rem;
-      border: .3125rem solid #d1e9ff;
-      border-top-color: #103fef;
-      border-radius: 50%;
-      animation: boot-spin .8s linear infinite;
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .boot-spinner span { animation: boot-pulse 1.6s ease-in-out infinite; }
-    }
-    @keyframes boot-spin { to { transform: rotate(1turn); } }
-    @keyframes boot-pulse { 50% { opacity: .4; } }
-    @keyframes boot-fade-in { from { opacity: 0; } }
-  </style>
-<link rel="stylesheet" href="styles.css"></head>
-<body>
-  <app-root>
-    <div class="boot-spinner" role="status" aria-label="Loading"><span></span></div>
-  </app-root>
-<script src="main.js" type="module"></script></body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Loading…</title>
+    <script>
+      (function () {
+        var adminPath = '/admin';
+        var path = location.pathname;
+        var app = path === adminPath || path.indexOf(adminPath + '/') === 0 ? adminPath + '/' : '/';
+        fetch(app + 'index.html')
+          .then(function (response) {
+            return response.text();
+          })
+          .then(function (html) {
+            document.open();
+            document.write(html);
+            document.close();
+          });
+      })();
+    </script>
+  </head>
+  <body></body>
 </html>

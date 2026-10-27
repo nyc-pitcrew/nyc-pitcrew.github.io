@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/app.scss"],
-  "sourcesContent": ["// Full-height column so the footer sits at the bottom of the viewport on short pages\n// and after the content on long ones\n:host {\n    display: flex;\n    flex-direction: column;\n    min-height: 100vh;\n    min-height: 100dvh;\n    // Clears the fixed-position mock header (2rem tall)\n    padding-block-start: 2rem;\n}\n\n.main {\n    flex: 1 0 auto;\n    width: 100%;\n    // Column so a page can fill the space between header and footer (see the status pages)\n    display: flex;\n    flex-direction: column;\n    // Mobile\n    min-height: 420px;\n    padding-block: 24px;\n\n    // Desktop (NYCDS's 768px breakpoint)\n    @media (min-width: 768px) {\n        min-height: 0;\n        padding-block: var(--nyc-sys-size-text-2xl);\n    }\n}\n"],
-  "mappings": ";AAEA;AACI,WAAA;AACA,kBAAA;AACA,cAAA;AACA,cAAA;AAEA,uBAAA;;AAGJ,CAAA;AACI,QAAA,EAAA,EAAA;AACA,SAAA;AAEA,WAAA;AACA,kBAAA;AAEA,cAAA;AACA,iBAAA;;AAGA,QAAA,WAAA;AAXJ,GAAA;AAYQ,gBAAA;AACA,mBAAA,IAAA;;;",
-  "names": []
-}

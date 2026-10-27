@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/mock-outbox/mock-outbox-page.scss"],
-  "sourcesContent": [".message {\n    max-inline-size: 40rem;\n    padding: var(--nyc-sys-space-base, 1rem);\n    border: 1px solid var(--nyc-sys-color-border-medium-low, #ccc);\n    border-radius: var(--nyc-sys-space-xs, .5rem);\n\n    header {\n        display: flex;\n        flex-wrap: wrap;\n        gap: .25rem .75rem;\n    }\n}\n\n.message__meta {\n    color: var(--nyc-ref-color-gray-40, #777);\n    font-size: .875rem;\n}\n\n.message__subject {\n    margin-block: .5rem 0;\n    font-weight: 600;\n}\n\n.message__body {\n    margin: .5rem 0 0;\n    font-family: inherit;\n    white-space: pre-wrap;\n    overflow-wrap: anywhere;\n}\n"],
-  "mappings": ";AAAA,CAAA;AACI,mBAAA;AACA,WAAA,IAAA,oBAAA,EAAA;AACA,UAAA,IAAA,MAAA,IAAA,iCAAA,EAAA;AACA,iBAAA,IAAA,kBAAA,EAAA;;AAEA,CANJ,QAMI;AACI,WAAA;AACA,aAAA;AACA,OAAA,QAAA;;AAIR,CAAA;AACI,SAAA,IAAA,uBAAA,EAAA;AACA,aAAA;;AAGJ,CAAA;AACI,gBAAA,OAAA;AACA,eAAA;;AAGJ,CAAA;AACI,UAAA,OAAA,EAAA;AACA,eAAA;AACA,eAAA;AACA,iBAAA;;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/canceled/canceled-page.scss"],
-  "sourcesContent": ["p {\n    font-size: var(--nyc-sys-size-text-base);\n}"],
-  "mappings": ";AAAA;AACI,aAAA,IAAA;;",
-  "names": []
-}
